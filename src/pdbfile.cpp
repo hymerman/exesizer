@@ -302,6 +302,10 @@ public:
 
 class DECLSPEC_UUID("e60afbee-502d-46ae-858f-8272a09bd707") DiaSource71;
 class DECLSPEC_UUID("bce36434-2c24-499e-bf49-8bd99b0eeb68") DiaSource80;
+//class DECLSPEC_UUID("4C41678E-887B-4365-A09E-925D28DB33C2") DiaSource90; // not sure about this one.
+//class DECLSPEC_UUID("B86AE24D-BF2F-4ac9-B5A2-34B14E4CE11D") DiaSource100; // not sure about this one.
+class DECLSPEC_UUID("761D3BCD-1304-41D5-94E8-EAC54E4AC172") DiaSource110;
+class DECLSPEC_UUID("20cea761-83c2-44f4-a6f7-5cc4577198ca") DiaSource120;
 class DECLSPEC_UUID("79f1bb5f-b66e-48e5-b6a9-1545c323ca3d") IDiaDataSource;
 
 /****************************************************************************/
@@ -570,6 +574,8 @@ sBool PDBFileReader::ReadDebugInfo(sChar *fileName,DebugInfo &to)
 	} DLLs[] = {
 		"msdia71.dll", __uuidof(DiaSource71),
 		"msdia80.dll", __uuidof(DiaSource80),
+		"msdia110.dll", __uuidof(DiaSource110),
+		"msdia120.dll", __uuidof(DiaSource120),
 		// add more here as new versions appear (as long as they're backwards-compatible)
 		0
 	};
