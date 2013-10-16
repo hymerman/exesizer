@@ -1,0 +1,9 @@
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.aps
+*.exe
+*.pdb
+bin/
+build/
